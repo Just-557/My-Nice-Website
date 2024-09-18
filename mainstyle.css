@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+.highlight {
+  background-color: yellow;
+}
+
+
+#showImage {
+  /* Other styles... */
+  text-align: center;
+}
+
+
+.top-highlight {
+  background-color: lightblue; /* Color for the top highlight */
+  padding: 12px;
+}
+
+
+.word-highlight {
+  background-color: yellow; /* Color for the other highlighted words */
+  padding: 5px;
+}
+.image-container {
+  display: flex; /* Enable flexbox layout */
+  justify-content: space-between; /* Distribute images evenly */
+}
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+.text-container {
+  text-align: center; /* Center the text horizontally */
+}
+
+
+/* ... your existing styles ... */
+.link-box {
+  width: 300px; /* Adjust width as needed */
+  margin: 20px auto; /* Center the box */
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0; /* Optional background color */
+  text-align: center; /* Center text inside the box */
+}
+.link-box a {
+  display: block; /* Make links fill the entire width */
+  padding: 10px 0;
+  text-decoration: none;
+  color: #333; /* Link color */
+  border-bottom: 1px solid #ccc; /* Optional bottom border */
+}
+.link-box a:hover {
+  background-color: #ddd; /* Highlight on hover */
+  color: #000; /* Darken link color on hover */
+}
