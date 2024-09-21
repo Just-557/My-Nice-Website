@@ -1,0 +1,161 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1759188059592080804/8F6E1D0FCC0736815CB40B8FEE65D636BE5B547F/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+  background-size: cover; /* This is the key change */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ... other styles ... */
+.title {
+  text-align: center; /* Center the title */
+  font-size: 40px; /* Adjust the font size as needed */
+  margin-top: 20px; /* Add some top margin */
+  font-weight: bold;  /* Make the title bold */
+  background-color: rgb(91, 133, 230, 0.8); /* Semi-transparent white background */
+  padding: 10px; /* Add padding for visual space */
+}
+
+.list {
+  text-align: center; /* Center the title */
+  font-size: 20px; /* Adjust the font size as needed */
+  margin-top: 20px; /* Add some top margin */
+  font-weight: bold;  /* Make the title bold */
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  padding: 10px; /* Add padding for visual space */
+}
+
+.container {
+  display: flex; /* Use flexbox for horizontal layout */
+  width: 90%; /* Set the container's width to 90% of the viewport */
+  margin: 0 auto; /* Center the container horizontally */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.left-side {
+  text-align: center; /* Center the image horizontally */
+  margin-right: 0px; /* Add spacing between the left and right sides */
+}
+
+.right-side {
+  /* No need to center text here */
+}
+
+#myImage, #myImage2 {
+  cursor: pointer; /* Makes the image look clickable */
+  margin: 10px;
+}
+
+/* ... other styles ... */
+.third-image-container img {
+  cursor: pointer; /* Makes the image look clickable */
+}
+
+/* ... other styles ... */
+.fourth-image-container img {
+  cursor: pointer; /* Makes the image look clickable */
+}
+
+#myImage2 {
+  width: 200px; /* Adjust this value to change the width */
+  height: 200; /* Adjust this value to change the height */
+}
+
+#counter {
+  font-size: 36px; /* Increased font size for highlighting */
+  margin-top: 10px;
+  padding: 10px; /* Add padding for more visual space */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center the counter text */
+  width: 100px; /* Adjust the width of the counter */
+  margin-left: auto; /* Push the counter to the right */
+  margin-right: auto; /* Push the counter to the left */
+}
+
+#price {
+  font-size: 36px; /* Increased font size for highlighting */
+  margin-top: 10px;
+  padding: 10px; /* Add padding for more visual space */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 5px; /* Rounded corners */
+}
+
+#price2 {
+  font-size: 36px; /* Increased font size for highlighting */
+  margin-top: 10px;
+  padding: 10px; /* Add padding for more visual space */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 5px; /* Rounded corners */
+}
+
+#price3 {
+  font-size: 36px; /* Increased font size for highlighting */
+  margin-top: 10px;
+  padding: 10px; /* Add padding for more visual space */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 5px; /* Rounded corners */
+}
+
+
+.image2-container {
+  margin-top: 20px; /* Add spacing above the second image */
+  text-align: center; /* Center the image horizontally */
+}
+
+.third-image-container {
+  margin-top: 20px; /* Add spacing above the third image */
+  text-align: center; /* Center the image horizontally */
+}
+
+.fourth-image-container {
+  margin-top: 20px; /* Add spacing above the fourth image */
+  text-align: center; /* Center the image horizontally */
+}
+
+
+#counter, #price, #price2, #price3 {
+  font-size: 36px; /* Increased font size for highlighting */
+  margin-top: 10px;
+  padding: 30px; /* Add padding for more visual space */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center the counter text */
+  width: 100px; /* Adjust the width of the counter */
+  margin-left: auto; /* Push the counter to the right */
+  margin-right: auto; /* Push the counter to the left */
+  background-color: #f0f0f0; /* Example background color */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/* ... your existing styles ... */
+.link-box {
+  width: 300px; /* Adjust width as needed */
+  margin: 20px auto; /* Center the box */
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0; /* Optional background color */
+  text-align: center; /* Center text inside the box */
+}
+.link-box a {
+  display: block; /* Make links fill the entire width */
+  padding: 10px 0;
+  text-decoration: none;
+  color: #333; /* Link color */
+  border-bottom: 1px solid #ccc; /* Optional bottom border */
+}
+.link-box a:hover {
+  background-color: #ddd; /* Highlight on hover */
+  color: #000; /* Darken link color on hover */
+}
