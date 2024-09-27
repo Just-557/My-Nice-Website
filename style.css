@@ -32,6 +32,7 @@ html {
 .image-container {
   display: flex;
   justify-content: space-between;
+  cursor: pointer; /* Makes the image look clickable */
 }
 .text-container {
   text-align: center; /* Center the text horizontally */
