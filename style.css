@@ -10,6 +10,7 @@ html {
 
 
 body {
+  background-image: https://mrwallpaper.com/images/hd/cool-picture-purple-aesthetic-planets-zzpo2liv0vfbmzvb.jpg;
   background-size: cover; /* This is the key change */
   background-position: center;
   display: flex;
