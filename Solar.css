@@ -1,1 +1,25 @@
+html {
+  height: 450%;
+  width: 300%;
+}
 
+.link-box {
+  width: 300px; /* Adjust width as needed */
+  margin: 20px auto; /* Center the box */
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0; /* Optional background color */
+  text-align: center; /* Center text inside the box */
+}
+.link-box a {
+  display: block; /* Make links fill the entire width */
+  padding: 10px 0;
+  text-decoration: none;
+  color: #333; /* Link color */
+  border-bottom: 1px solid #ccc; /* Optional bottom border */
+}
+.link-box a:hover {
+  background-color: #ddd; /* Highlight on hover */
+  color: #000; /* Darken link color on hover */
+}
