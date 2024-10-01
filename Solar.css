@@ -35,19 +35,20 @@ body {
 
 .solar-system {
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 800px;
 }
 
 .sun {
     position: absolute;
-    background-color: yellow;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
     top: 50%;
     left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0 0 50px rgba(255, 255, 0, 0.8);
 }
 
 .planet {
@@ -56,66 +57,90 @@ body {
 }
 
 .mercury {
+    width: 30px;
+    height: 30px;
     background-color: gray;
-    width: 10px;
-    height: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(100px);
     animation: orbit 10s linear infinite;
 }
 
 .venus {
+    width: 50px;
+    height: 50px;
     background-color: orange;
-    width: 20px;
-    height: 20px;
-    animation: orbit 15s linear infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(150px);
+    animation: orbit 12s linear infinite;
 }
 
 .earth {
+    width: 55px;
+    height: 55px;
     background-color: blue;
-    width: 25px;
-    height: 25px;
-    animation: orbit 20s linear infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(200px);
+    animation: orbit 14s linear infinite;
 }
 
 .mars {
+    width: 40px;
+    height: 40px;
     background-color: red;
-    width: 15px;
-    height: 15px;
-    animation: orbit 25s linear infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(250px);
+    animation: orbit 16s linear infinite;
 }
 
 .jupiter {
+    width: 70px;
+    height: 70px;
     background-color: brown;
-    width: 35px;
-    height: 35px;
-    animation: orbit 30s linear infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(300px);
+    animation: orbit 18s linear infinite;
 }
 
 .saturn {
+    width: 60px;
+    height: 60px;
     background-color: gold;
-    width: 30px;
-    height: 30px;
-    animation: orbit 35s linear infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(350px);
+    animation: orbit 20s linear infinite;
 }
 
 .uranus {
+    width: 50px;
+    height: 50px;
     background-color: lightblue;
-    width: 27px;
-    height: 27px;
-    animation: orbit 40s linear infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(400px);
+    animation: orbit 22s linear infinite;
 }
 
 .neptune {
+    width: 50px;
+    height: 50px;
     background-color: darkblue;
-    width: 24px;
-    height: 24px;
-    animation: orbit 45s linear infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(450px);
+    animation: orbit 24s linear infinite;
 }
 
 @keyframes orbit {
     0% {
-        transform: rotate(0deg) translateX(200px) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg) translateX(100px);
     }
     100% {
-        transform: rotate(360deg) translateX(200px) rotate(-360deg);
+        transform: translate(-50%, -50%) rotate(360deg) translateX(100px);
     }
 }
