@@ -116,10 +116,14 @@ body {
 }
 
 @keyframes orbit {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg) translateX(100px);
-    }
-    100% {
-        transform: translate(-50%, -50%) rotate(360deg) translateX(100px);
-    }
+    0% {  transform: translate(-50%, -50%) rotate(0deg) translateX(100px); }
+    100% {transform: translate(-50%, -50%) rotate(360deg) translateX(100px); }
+   .venus { transform: rotate(0deg) translateX(150px) rotate(0deg); } /* Venus */
+    .earth { transform: rotate(0deg) translateX(200px) rotate(0deg); } /* Earth */
+    .mars { transform: rotate(0deg) translateX(250px) rotate(0deg); } /* Mars */
+    .jupiter { transform: rotate(0deg) translateX(300px) rotate(0deg); } /* Jupiter */
+    .saturn { transform: rotate(0deg) translateX(350px) rotate(0deg); } /* Saturn */
+    .uranus { transform: rotate(0deg) translateX(400px) rotate(0deg); } /* Uranus */
+    .neptune { transform: rotate(0deg) translateX(450px) rotate(0deg); } /* Neptune */
+}
 }
