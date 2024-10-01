@@ -62,7 +62,7 @@ body {
     background-color: gray;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(0deg) translateX(100px);
+    transform: translate(-50%, -50%) rotate(0deg) translateX(150px);
     animation: orbit 10s linear infinite;
 }
 
@@ -72,7 +72,7 @@ body {
     background-color: orange;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(0deg) translateX(150px);
+    transform: translate(-50%, -50%) rotate(0deg) translateX(300px);
     animation: orbit 12s linear infinite;
 }
 
@@ -82,7 +82,7 @@ body {
     background-color: blue;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(0deg) translateX(200px);
+    transform: translate(-50%, -50%) rotate(0deg) translateX(600px);
     animation: orbit 14s linear infinite;
 }
 
@@ -92,7 +92,7 @@ body {
     background-color: red;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(0deg) translateX(250px);
+    transform: translate(-50%, -50%) rotate(0deg) translateX(900px);
     animation: orbit 16s linear infinite;
 }
 
@@ -102,7 +102,7 @@ body {
     background-color: brown;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(0deg) translateX(300px);
+    transform: translate(-50%, -50%) rotate(0deg) translateX(1200px);
     animation: orbit 18s linear infinite;
 }
 
@@ -112,7 +112,7 @@ body {
     background-color: gold;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(0deg) translateX(350px);
+    transform: translate(-50%, -50%) rotate(0deg) translateX(1600px);
     animation: orbit 20s linear infinite;
 }
 
@@ -122,7 +122,7 @@ body {
     background-color: lightblue;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(0deg) translateX(400px);
+    transform: translate(-50%, -50%) rotate(0deg) translateX(2000px);
     animation: orbit 22s linear infinite;
 }
 
@@ -132,7 +132,7 @@ body {
     background-color: darkblue;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(0deg) translateX(450px);
+    transform: translate(-50%, -50%) rotate(0deg) translateX(2450px);
     animation: orbit 24s linear infinite;
 }
 
