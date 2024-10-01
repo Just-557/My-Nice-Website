@@ -43,10 +43,10 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: yellow;
-    border-radius: 50%;
+    border-radius: 100%;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 50px rgba(255, 255, 0, 0.8);
 }
