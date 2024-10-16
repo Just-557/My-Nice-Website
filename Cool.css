@@ -1,0 +1,230 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: hidden; /* Prevent scrollbars */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure full viewport height */
+  margin: 0;
+}
+
+.solar-system {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  animation: rotate 45s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.sun {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: yellow;
+  box-shadow: 0 0 200px #fcff38;
+}
+
+.planet {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.mercury {
+  top: 10%;
+  left: 50%;
+  transform-origin: 0 50%;
+  background-color: #d3d3d3;
+  animation: rotate 2.5s infinite linear;
+  box-shadow: 0 0 30px #e8f8f4;
+}
+
+.venus {
+  top: 20%;
+  left: 50%;
+  transform-origin: 0 50%;
+  background-color: #e07a57;
+  animation: rotate 2.52s infinite linear;
+  box-shadow: 0 0 30px #ff9500;
+}
+
+.earth {
+  top: 30%;
+  left: 50%;
+  transform-origin: 0 50%;
+  background-color: #2e86c1;
+  animation: rotate 2.54s infinite linear;  box-shadow: 0 0 30px #00ffee;
+
+}
+
+.mars {
+  top: 40%;
+  left: 50%;
+  transform-origin: 0 50%;
+  background-color: #d35400;
+  animation: rotate 2.56s infinite linear;  box-shadow: 0 0 30px #ff8800;
+
+}
+
+.jupiter {
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 50%;
+  background-color: #f8c471;
+  animation: rotate 2.58s infinite linear;  box-shadow: 0 0 30px #ff8800;
+
+}
+
+.saturn {
+  top: 60%;
+  left: 50%;
+  transform-origin: 0 50%;
+  background-color: #f1c40f;
+  animation: rotate 2.6s infinite linear;  box-shadow: 0 0 30px #e1ff00;
+
+}
+
+.uranus {
+  top: 70%;
+  left: 50%;
+  transform-origin: 0 50%;
+  background-color: #5dade2;
+  animation: rotate 2.62s infinite linear;  box-shadow: 0 0 30px #66eabe;
+
+}
+
+.neptune {
+  top: 80%;
+  left: 50%;
+  transform-origin: 0 50%;
+  background-color: #7d3c98;
+  animation: rotate 2.64s infinite linear;  box-shadow: 0 0 30px #ff00d0;
+
+}
+
+.axis {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 400px;
+  background-color: black tranparent;
+  transform-origin: 0 0;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(1turn);
+  }
+}
+
+.sun {
+  /* ... other styles ... */
+  background: radial-gradient(circle at 50% 50%, 
+        rgb(255, 206, 31, 0.99), /* Blue with transparency */
+        rgb(255, 155, 15, 0.8), /* Teal with transparency */
+        rgb(255, 247, 0, 0.99), /* Green with transparency */
+        rgb(251, 164, 14, .8), /* Lighter Green with transparency */
+        rgb(238, 255, 0, .99)    /* Light Green */
+     );
+}
+
+.earth {
+  /* ... other styles ... */
+  background: radial-gradient(circle at 50% 50%, 
+        rgba(0, 102, 204, 0.5), /* Blue with transparency */
+        rgba(0, 128, 128, 0.6), /* Teal with transparency */
+        rgba(0, 179, 134, 0.7), /* Green with transparency */
+        rgba(0, 201, 163, 0.8), /* Lighter Green with transparency */
+        rgba(0, 255, 204, 1)    /* Light Green */
+     );
+}
+
+.mercury {
+  /* ... other styles ... */
+  background: radial-gradient(circle at 50% 50%, 
+        rgb(195, 209, 223, 0.5), /* Blue with transparency */
+        rgb(152, 174, 174, 0.6), /* Teal with transparency */
+        rgb(129, 131, 131, 0.7), /* Green with transparency */
+        rgb(235, 244, 243, 0.8), /* Lighter Green with transparency */
+        rgb(214, 215, 214, .9)    /* Light Green */
+     );
+}
+
+.venus {
+  /* ... other styles ... */
+  background: radial-gradient(circle at 50% 50%, 
+        rgb(210, 75, 75, 0.5), /* Blue with transparency */
+        rgb(215, 71, 71, 0.6), /* Teal with transparency */
+        rgb(219, 107, 107, 0.7), /* Green with transparency */
+        rgb(187, 139, 139, 0.8), /* Lighter Green with transparency */
+        rgba(0, 255, 204, 1)    /* Light Green */
+     );
+}
+
+.mars {
+  /* ... other styles ... */
+  background: radial-gradient(circle at 50% 50%, 
+        rgb(249, 131, 21, 0.5), /* Blue with transparency */
+        rgb(219, 151, 57, 0.6), /* Teal with transparency */
+        rgb(238, 140, 47, 0.7), /* Green with transparency */
+        rgb(255, 132, 31, 0.8), /* Lighter Green with transparency */
+       rgb(255, 136, 0, .9)    /* Light Green */
+     );
+}
+
+.jupiter {
+  /* ... other styles ... */
+  background: radial-gradient(circle at 50% 50%, 
+        rgb(235, 209, 111, 0.5), /* Blue with transparency */
+        rgb(185, 182, 80, 0.6), /* Teal with transparency */
+        rgb(248, 230, 139, 0.7), /* Green with transparency */
+        rgb(217, 214, 130, 0.8), /* Lighter Green with transparency */
+        rgba(0, 255, 204, 1)    /* Light Green */
+     );
+}
+
+.saturn {
+  /* ... other styles ... */
+  background: radial-gradient(circle at 50% 50%, 
+        rgb(251, 255, 0, 0.5), /* Blue with transparency */
+        rgb(241, 191, 9, 0.6), /* Teal with transparency */
+        rgb(225, 255, 0, 0.7), /* Green with transparency */
+        rgb(255, 247, 0, 0.8), /* Lighter Green with transparency */
+        rgba(0, 255, 204, 1)    /* Light Green */
+     );
+}
+
+.uranus{
+  /* ... other styles ... */
+  background: radial-gradient(circle at 50% 50%, 
+        rgb(0, 255, 251, 0.5), /* Blue with transparency */
+        rgb(9, 129, 241, 0.6), /* Teal with transparency */
+        rgb(0, 85, 255, 0.7), /* Green with transparency */
+        rgb(0, 251, 255, 0.8), /* Lighter Green with transparency */
+        rgba(0, 255, 204, 1)    /* Light Green */
+     );
+}
+
+.neptune{
+  /* ... other styles ... */
+  background: radial-gradient(circle at 50% 50%, 
+        rgb(255, 0, 234, 0.5), /* Blue with transparency */
+        rgb(241, 9, 109, 0.6), /* Teal with transparency */
+        rgb(251, 0, 255, 0.7), /* Green with transparency */
+        rgb(200, 0, 255, 0.8), /* Lighter Green with transparency */
+        rgba(0, 255, 204, 1)    /* Light Green */
+     );
+}
+
